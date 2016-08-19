@@ -46,7 +46,7 @@ while True:
 	print volume_number
 
 	if os.path.exists('Manga/Volume-%d'%volume_number) == False:
-		os.mkdir('Manga/Volume-%d')%volume_number	
+		os.mkdir('Manga/Volume-%d'%volume_number)	
 	
 	print "Enter The Chapter Number"
 	chapter_number = int(raw_input(prompt))
